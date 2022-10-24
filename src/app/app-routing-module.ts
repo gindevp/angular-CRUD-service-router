@@ -20,6 +20,11 @@ const routes: Routes= [
     path: 'product/list/edit',
     component: ProductEditComponent
   },
+  {
+    path: '',
+    redirectTo: 'product/list',
+    pathMatch: "full"
+  }
 ];
 
 @NgModule({

@@ -12,7 +12,7 @@
     <td>{{product.name}}</td>
     <td>{{product.price}}</td>
     <td>{{product.description}}</td>
-    <a routerLink="edit" (click)="findProduct(product)">Sửa</a>
-    <a (click)="removeProduct(product)">Xóa</a>
+    <button><a routerLink="edit" (click)="findProduct(product)">Sửa</a></button>
+    <button><a routerLink="/" (click)="removeProduct(product)">Xóa</a></button>
   </tr>
 </table>
